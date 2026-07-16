@@ -629,7 +629,7 @@ const hasMultipleImages =
                         </div>
                     )}
                     {backgroundWallpaper.common?.homeText?.subtitle && (
-                        <div id="banner-subtitle" class="banner-subtitle text-white/90 leading-snug" style={{ fontSize: backgroundWallpaper.common.homeText.subtitleSize || "1.5rem" }} data-subtitles={JSON.stringify(backgroundWallpaper.common.homeText.subtitle)}>
+                        <div id="banner-subtitle" class="banner-subtitle text-white/90" style={{ fontSize: backgroundWallpaper.common.homeText.subtitleSize || "1.5rem", height: "3em", lineHeight: "1.5" }} data-subtitles={JSON.stringify(backgroundWallpaper.common.homeText.subtitle)}>
                             {backgroundWallpaper.common.homeText.typewriter?.enable ? (
                                 <TypewriterText
                                     text={backgroundWallpaper.common.homeText.subtitle}

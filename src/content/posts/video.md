@@ -1,27 +1,15 @@
 ---
-title: 在文章中嵌入视频
-published: 1970-01-01
-description: 这篇文章演示如何在博客文章中嵌入视频。
-tags: [示例, 视频, Firefly]
+title: 我的第一篇博客
+published: 2026-07-16
+description: FalseCat的博客正式成立了！
+tags: ["示例","博客"]
 category: 文章示例
-slug: video
+slug: hello-world
+image: ../../assets/images/DesktopWallpaper/d1.jpg
 ---
 
-只需从 YouTube 或其他平台复制嵌入代码，然后将其粘贴到 markdown 文件中。
 
-```yaml
----
-title: 在文章中嵌入视频
-published: 2023-10-19
-// ...
----
+# Hello World!
 
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-```
-## YouTube
+## 喵喵咕噜咕噜
 
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Bilibili
-
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &autoplay=0> </iframe>

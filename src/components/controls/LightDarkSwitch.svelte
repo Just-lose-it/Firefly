@@ -116,12 +116,12 @@ onMount(() => {
 </script>
 
 <div class="relative z-50">
-    <button aria-label="Light/Dark Mode" aria-haspopup="menu" class="relative btn-plain scale-animation rounded-lg h-9 w-9 md:h-11 md:w-11 active:scale-90" id="scheme-switch">
+    <button aria-label="Light/Dark Mode" aria-haspopup="menu" class="relative btn-plain scale-animation rounded-lg h-12 w-12 md:h-14 md:w-14 active:scale-90" id="scheme-switch">
         <div class="absolute inset-0 flex items-center justify-center" class:opacity-0={displayedMode !== LIGHT_MODE}>
-            <Icon icon="material-symbols:wb-sunny-outline-rounded" class="text-[1.25rem]"></Icon>
+            <Icon icon="material-symbols:wb-sunny-outline-rounded" class="text-[1.4rem]"></Icon>
         </div>
         <div class="absolute inset-0 flex items-center justify-center" class:opacity-0={displayedMode !== DARK_MODE}>
-            <Icon icon="material-symbols:dark-mode-outline-rounded" class="text-[1.25rem]"></Icon>
+            <Icon icon="material-symbols:dark-mode-outline-rounded" class="text-[1.4rem]"></Icon>
         </div>
     </button>
     <div id="theme-mode-panel" class="absolute transition float-panel-closed top-11 -right-2 pt-5 z-50" role="menu" aria-labelledby="scheme-switch">
