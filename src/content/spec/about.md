@@ -8,9 +8,7 @@
 
 这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+**🏠我的博客： [https://falsecat.moe](https://falsecat.moe/)**
 
 ## 站点历程
 
@@ -18,7 +16,7 @@
 
 ## 联系我
 
-QQ: 3481449350
+QQ: MzQ4MTQ0OTM1MA (base64)
 
 **GitHub: [https://github.com/Just-lose-it](https://github.com/Just-lose-it)**
 
