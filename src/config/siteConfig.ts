@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Demo site",
 
 	// 站点 URL
-	site_url: "https://falsecat.moe",
+	site_url: "https://blog.falsecat.moe",
 
 	// 站点描述
 	description:
