@@ -4,6 +4,7 @@ published: 2026-07-17
 tags: ["MLSys","论文笔记","推测解码"]
 category: MLSys
 image: cover.jpg
+slug: dspark
 ---
 
 # DSpark论文笔记
