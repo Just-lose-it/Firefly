@@ -215,7 +215,7 @@ function serializeMenus(menus: Props["config"]["menus"]) {
 					...(tips.offset && { offset: tips.offset }),
 					...(tips.typing && { typing: tips.typing }),
 				};
-				
+
 				if (tipsConfig === false || Object.keys(tipsConfig).length > 0) {
 					if (Array.isArray(options.model)) {
 						options.model.forEach((m: any) => m.tips = tipsConfig);
@@ -225,7 +225,19 @@ function serializeMenus(menus: Props["config"]["menus"]) {
 				}
 			}
 
-			createWidget(options);
+			const widget = createWidget(options);
+
+			// ParamMouthForm 初始化为 1（微笑嘴型）
+			if (widget?.l2d) {
+				const initMouthForm = () => {
+					try { widget.l2d?.setParams({ ParamMouthForm: 1 }); } catch (_) {}
+				};
+				if (widget.l2d.on) {
+					widget.l2d.on("loaded", initMouthForm);
+				}
+				// 兜底：某些情况下 loaded 事件可能已过，延迟再试一次
+				setTimeout(initMouthForm, 2000);
+			}
 		} catch (e) {
 			console.error("Failed to initialize Live2D widget:", e);
 		}
